@@ -1,0 +1,1 @@
+# Centro de ayuda de la aplicación

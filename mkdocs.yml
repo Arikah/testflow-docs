@@ -1,0 +1,42 @@
+site_name: Application User Guide
+site_description: Official help center and user documentation
+site_url: https://your-username.github.io/your-repo/
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - search.suggest
+
+plugins:
+  - search
+  - i18n:
+      default_language: en
+      languages:
+        - locale: en
+          name: English
+          default: true
+          build: true
+        - locale: es
+          name: Español
+          build: true
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+
+nav:
+  - index.md
+  - getting-started.md
+  - troubleshooting.md
