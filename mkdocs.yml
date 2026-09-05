@@ -1,4 +1,4 @@
-site_name: Application User Guide
+site_name: Application Documentation
 site_description: Official help center and user documentation
 site_url: https://your-username.github.io/your-repo/
 
@@ -38,5 +38,8 @@ markdown_extensions:
 
 nav:
   - index.md
-  - getting-started.md
+  - Getting Started:
+      - getting-started.md
+      - installation.md
+      - quick-setup.md
   - troubleshooting.md

@@ -24,5 +24,3 @@ Learn the basic interface layout and how to complete your first core workflow.
 
 4. Click **Save** to confirm.
 
-!!! warning "Unsaved Changes"
-    If running without cloud auto-sync enabled, ensure you save manual revisions before exiting the application or closing active tabs.
